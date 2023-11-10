@@ -1,0 +1,3 @@
+alpha-authenticate:
+    path:       /authenticate
+    defaults:   { _controller: 'SimpleSAML\Module\alpha\Controller\AlphaController::authenticate' }

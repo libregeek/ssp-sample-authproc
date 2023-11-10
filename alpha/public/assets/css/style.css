@@ -1,0 +1,189 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+.saml-container{
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    background-color: #eee;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.saml-container .container{
+    display: block;
+    overflow: hidden;
+    width: 90%;
+    max-width: 400px;
+    height: inherit;
+    margin: 0 auto;
+}
+.saml-header{
+    width: 100%;
+    display: block;
+    padding: 2rem 0;
+    margin-top: 2rem;
+}
+.saml-header .logo{
+    width: 100%;
+    max-width: 260px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.saml-body{
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.saml-body .title{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+.saml-body .sub-title{
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #666;
+}
+.saml-body .info,
+.saml-footer .info{
+    font-size: 0.8em;
+    color: #666;
+    text-align: center;
+}
+.saml-body .info a,
+.saml-footer .info a{
+    text-decoration: none;
+    color: teal;
+}
+.saml-body .info .highlight{
+    background-color: wheat;
+    padding: 0.4rem 1rem;
+    display: inline-block;
+    border-radius: 200px;
+}
+.saml-body .form{
+    margin: 1rem 0 0 0;
+}
+.saml-body .form .form-group{
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.saml-body .form .form-group .control-label{
+    display: block;
+    flex: 1 0 100%;
+    font-size: 0.8rem;
+    color: #666;
+    margin-bottom: 0.4rem;
+}
+.saml-body .form .form-group .form-control{
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+.saml-body .form .form-group .form-check{
+    font-size: 0.8rem;
+    color: #666;
+    display: flex;
+    align-items: center;
+}
+.saml-body .form .form-group .form-radio-group{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    width: 100%;
+}
+.saml-body .form .form-group .chart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex: 1;
+}
+.saml-body .form .form-group .chart img{
+    max-width: 240px;
+}
+.saml-body .form .form-group .form-radio-group .form-check{
+    width: 100%;
+    box-sizing: border-box;
+    flex: 1;
+}
+.saml-body .form .form-group .form-radio-group .form-check label{
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 0.8rem 1rem;
+    width: 100%;
+    border-radius: 200px;
+}
+.saml-body .form .form-group .form-radio-group .form-check input{
+    margin: 0 1rem 0 0;
+}
+.saml-body .form .form-group .btn{
+    color: #fff;
+    background-color: #0636A6;
+    padding: 0.5rem 1.5rem;
+    margin-left: auto;
+    border: 0;
+    border-radius: 100px;
+    font-size: 1em;
+}
+.saml-body .form .form-group .link{
+    font-size: 0.8em;
+    color: teal;
+    text-decoration: none;
+}
+.saml-footer{
+    margin-top: 1rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.saml-footer .navigation{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1rem;
+}
+.saml-footer .navigation .link{
+    color: teal;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+.message-box{
+    padding: 0.5rem;
+    background: #eee;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+.message-box h3{
+    margin: 0;
+    font-size: 1.1em;
+}
+.message-box p{
+    color: #666;
+    padding: 0.5rem 0 0 0;
+    margin: 0;
+}
+.message-box .error{
+    background: rgba(252, 3, 3,0.1);
+    border-color: red;
+}

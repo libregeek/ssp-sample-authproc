@@ -1,0 +1,122 @@
+.LoginScreen .center{
+	width:500px;
+	margin:0 auto;
+}
+/*BODY{background:url(../images/login-bg-blue.jpg) center center no-repeat !important; display:block; }
+BODY{background:#eee !important; display:block; }
+.LoginScreen{background-color:transparent !important; background-image:none; padding:0 !important}
+.LoginScreen .center{
+	border-radius:0px !important;
+	box-shadow:none;
+	background:transparent !important;
+	margin-top:-300px !important;
+	width:500px;
+	margin-left:-250px;
+}
+.LoginScreen .center .image{
+	width:100%;
+	padding:25px 0 10px 0;
+	margin-bottom:30px;
+	display:block; overflow:hidden;
+	text-align:center;
+}
+.LoginScreen .center .image img{width:190px; height:auto}
+.LoginScreen .form, .LoginScreen #ZloginWhatsThisAnchor, .LoginScreen .offline, .LoginScreen A:link, .LoginScreen A:visited{color:#333 !important;}
+.LoginScreen .center .form-wrapper{
+}
+.LoginScreen .center .form-wrapper .form{
+	padding:30px 50px 20px 50px;
+	background:rgba(255,255,255,1);
+	border-top:4px solid #005488;
+	box-shadow:0 0 15px rgba(0,0,0,0.2);
+	border-radius:4px;
+	text-align:left;
+}
+.LoginScreen .form .title{
+	font-size:14px;
+	margin:0 0 5px 0;
+	color:#900
+}
+.LoginScreen .form input{
+	padding:7px;
+	border-radius:4px;
+	width:100% !important;
+}
+.LoginScreen .form .radio-input{
+	padding:0;
+	border-radius:0;
+	vertical-align:text-bottom;
+	width:auto !important;
+}
+.LoginScreen .form .radio-label{
+	width:100%;
+	display:block;
+	overflow:hidden;
+	border:1px solid #ddd;
+	padding:10px;
+	margin:5px 0;
+	border-radius:4px;
+	cursor:pointer;
+	box-sizing:border-box;
+}
+.LoginScreen .form .radio-label small{
+	display:block;
+	overflow:hidden;
+	color:#666;
+	margin-top:5px;
+}
+.LoginScreen .form .btn{
+	padding:8px 15px;
+	background:#0064b1;
+	border-radius:4px;
+	border:1px solid #015da4;
+	cursor:pointer;
+	color:#fff;
+	display:block; overflow:hidden;
+	width:100%;
+}
+.LoginScreen .offline{
+	display:block; overflow:hidden;
+	padding:0;
+	text-align:center;
+}
+.LoginScreen .offline .support{
+	width:100%;
+	float:left;
+	background:rgba(0,0,0,0.1);
+	padding:10px;
+	box-sizing:border-box;
+}
+.LoginScreen .offline .links{
+	margin:0; padding:0; list-style:none;
+	width:100%;
+	float:right;
+	padding:20px 10px;
+	box-sizing:border-box;
+	font-size:0.7rem;
+	background:none
+}
+.LoginScreen .offline .links li{
+	padding:1px 0;
+	display:block; overflow:hidden;
+}
+.LoginScreen .offline .links li a{
+	color:#06C !important
+}
+
+@media (max-width: 418px) {
+	.LoginScreen .center{
+		width:100%;
+		left:0; margin:0;
+	}
+	.LoginScreen .center .form-wrapper .form{
+		padding:10px;
+	}
+}
+@media (max-width: 768px) {
+	.LoginScreen .center{
+		margin-top:0 !important;
+		top:0 !important;
+		margin-left:-300px;
+	}
+}

@@ -1,0 +1,15 @@
+{% set pagetitle = 'Alpha'|trans %}
+{% extends "@alpha/base.twig" %}
+
+{% block content %}
+        	<div class="form">
+                {% if userError is not empty %}
+                    <div class="message-box error">
+                        {{ userError }}
+                    </div>
+                {% endif %}
+    <form action="{{ moduleURL('alpha/authenticate') }}" method="get">
+        <input type='hidden' name="StateId" value="{{ StateId }}">
+        <input type='submit' name="submit" class="btn" value="Submit"> 
+    </form>
+{% endblock %}

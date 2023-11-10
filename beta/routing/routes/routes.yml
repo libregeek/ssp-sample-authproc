@@ -1,0 +1,3 @@
+beta-authenticate:
+    path:       /authenticate
+    defaults:   { _controller: 'SimpleSAML\Module\beta\Controller\BetaController::authenticate' }
